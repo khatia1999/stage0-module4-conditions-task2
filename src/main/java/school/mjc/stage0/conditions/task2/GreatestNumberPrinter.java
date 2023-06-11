@@ -5,9 +5,9 @@ public class GreatestNumberPrinter {
 
         if(first > second){
             System.out.println("The greatest number is:" + first);
-        } else if (second > first) {
+        } else if (first < second) {
             System.out.println("The greatest number is:" + second);
-        }  else if (second == first) {
+        }  else if (first == second) {
             System.out.println(first + "" + "is equal to" + "" + second);
         }
     }
